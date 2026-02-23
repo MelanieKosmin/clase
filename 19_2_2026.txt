@@ -37,3 +37,4 @@ GIT: VA A TENER LA POSIBILIDAD E IGNORAR FICHEROS DE UNA CARPETA, CON UN: .gitig
 A medida q vamos programando, cada ciert tiepo podemos hacer git add . para agregar 
 cambios al STAGING
 git commit -m "bla bla" : para crear una nueva version del proyecto
+
