@@ -1,0 +1,35 @@
+Git:sistema de control de veriones
+
+CLI: comand line interface
+
+clear: limpia la terinal
+
+cd: change directory
+~ :raiz del sistema
+ls. lista de directorios y ficheros del directorio actual
+
+Respositorio: es un directorio gestionado por Git
+
+para crear un repositorio vamos a usar el comendo : GIT INIT : en el direcorio q necesitamos crear el repositorio
+
+git status: estado del repositorio
+-----------------------------------------------------------
+
+staging: los ficheros estan controlados por Git
+commit: crea una version
+
+para añadir ficheros al staging: es git add NOMBRE_FICHERO
+git add .    ...> esto es añadir todos los ficheros q no estèn añadidos
+
+para crear una version(commit): git commit -m"bla bla"
+-m : es de commit message(msj)
+
+-x : es una flag(bandera)se llama asi para pasar info al sistema
+
+.Ds_store: son ficheros ocultos, 
+-----------------------------------------------------------------
+
+macOS: tiene un fichero de gestion de directorio llamado .Ds_store
+
+
+GIT: VA A TENER LA POSIBILIDAD E IGNORAR FICHEROS DE UNA CARPETA, CON UN: .gitignore
