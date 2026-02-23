@@ -46,3 +46,32 @@ git log
 git checkout: permite cambiar "el estado del repositorio"
 
 git checkout HASH_COMMIT: permite mover el HEAD a una version anterior
+------------------------------------------------------------------------
+
+branches: ramas (forma en la q esta estucturada git)
+
+
+git branch : es para hacer una lista de ramas
+git brabch NOMBRE_RAMA: es para crear una rama
+
+MERGE: fusionar ramas
+1) asegurarme q estoy en la rama estilo
+2) ejecutar git merge RAMA_A_FUSIONAR
+
+
+git push: subir cambio a un repoitorio remoto
+git pull: descargar cambios a de un repositorio remoto
+
+para configurar un remositorio remoto:
+en el local: git remore add NOMBRE_REPO_REMOTO URL
+
+cuando subimos por primera vez(tenesmos q especificar todo): git push -u REMOTO local
+-u: es para crear un "canal de subida" upstream
+
+-----------------------------------------
+Proveedores de GIt en la nuve:
+github: es de microsoft
+gitlab
+bitbicket
+codeberg
+
