@@ -38,3 +38,11 @@ A medida q vamos programando, cada ciert tiepo podemos hacer git add . para agre
 cambios al STAGING
 git commit -m "bla bla" : para crear una nueva version del proyecto
 
+
+podemos tener la posiilidad de hacer una lista de veriones(commits)
+
+git log
+
+git checkout: permite cambiar "el estado del repositorio"
+
+git checkout HASH_COMMIT: permite mover el HEAD a una version anterior
